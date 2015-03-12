@@ -69,7 +69,7 @@ function do_multi_thread($lock_file_name, $update_id_name, $max_thread, $command
     return true;
 }
 
-
+// summary/update.php内の関数
 public function update() {
     if (!$this->validate()) return false;
 
